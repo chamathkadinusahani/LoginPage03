@@ -1,0 +1,30 @@
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.loginImage {
+  width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 991px) {
+  .mainContent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .loginImage {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+}

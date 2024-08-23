@@ -1,0 +1,138 @@
+.loginSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.loginTitle {
+  color: #000;
+  font: 500 40px/0.5 'Abhaya Libre Medium', sans-serif;
+  margin-bottom: 30px;
+}
+
+.userTypeToggle {
+  display: flex;
+  border: 1px solid #bac7d5;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.userTypeButton {
+  padding: 10px 20px;
+  font: 800 20px 'Abhaya Libre ExtraBold', sans-serif;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.userTypeButton.active {
+  background-color: rgba(120, 92, 43, 0.78);
+  color: #fff;
+}
+
+.loginForm {
+  width: 100%;
+}
+
+.inputGroup {
+  margin-bottom: 20px;
+}
+
+.inputLabel {
+  display: block;
+  color: #252a31;
+  font: 800 32px/1 'Abhaya Libre ExtraBold', sans-serif;
+  margin-bottom: 5px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #bac7d5;
+  border-radius: 6px;
+  background-color: #e8edf1;
+}
+
+.rememberMe {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.checkboxLabel {
+  color: #3b3624;
+  font: 500 20px 'Abhaya Libre Medium', sans-serif;
+}
+
+.signInButton,
+.googleSignIn,
+.facebookSignIn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font: 700 32px 'Abhaya Libre', sans-serif;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.signInButton {
+  background-color: rgba(192, 136, 37, 0.86);
+}
+
+.divider {
+  color: #000;
+  text-align: center;
+  font: 500 32px/0.5 'Abhaya Libre Medium', sans-serif;
+  margin: 20px 0;
+}
+
+.googleSignIn {
+  background-color: #0b55cc;
+  font-size: 20px;
+  position: relative;
+}
+
+.googleIcon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+}
+
+.facebookSignIn {
+  background-color: #1877f2;
+  font-size: 20px;
+}
+
+.forgotPassword {
+  display: flex;
+  align-items: center;
+  color: #000;
+  text-decoration: none;
+  font: 700 24px 'Abhaya Libre', sans-serif;
+  margin-top: 20px;
+}
+
+.lockIcon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+@media (max-width: 991px) {
+  .loginSection {
+    padding: 0 20px;
+  }
+}
